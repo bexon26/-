@@ -1,34 +1,108 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>gulp-scss-starter</title>
-        <meta name="theme-color" content="#fff">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
-        <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
-        <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
-        <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
-        <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
-        <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
-        <link rel="stylesheet" href="styles/main.css">
-    </head>
-    <body>
-        @@include("../blocks/modules/header/header.html")
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>gulp-scss-starter</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <!-- @@include("../blocks/modules/header/header.html")
         @@include("../blocks/modules/footer/footer.html")
         <script src="js/main.js"></script>
-        <script src="js/vendor.js"></script>
-    </body>
+        <script src="js/vendor.js"></script> -->
+
+    <section class="main">
+        <header class="header">
+            <div class="header-logo">
+
+                <img src="../img/svg/logo.svg" alt="logo">
+
+                <p>Строительство домов
+                    в Москве и области.
+                    Работаем с 2013 года</p>
+            </div>
+            <div class="header-phone">
+                <img src="../img/svg/phone-icon.svg" alt="phone-icon">
+                <div class="header-phone-block">
+                    <p class="header-phone-block__text">Звоните, мы онлайн!</p>
+                    <div class="header-phone-block-mob">
+                        <p class="header-phone-block-mob__first">8 906-043-33-60</p>
+                        <p class="header-phone-block-mob__second">8 - (495) - 983-33-40</p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-social">
+                <p class="header-social__text">Написать архитектору:</p>
+                <div class="header-social-block">
+                    <a class="header-social-block-item" href=""><img src="../img/icon/viber.png" alt="logo"></a>
+                    <a class="header-social-block-item" href=""><img src="../img/icon/watsapp.png" alt="logo"></a>
+                    <a class="header-social-block-item" href=""><img src="../img/icon/telegram.png" alt="logo"></a>
+                </div>
+            </div>
+            
+                <button class="button header-button">Перезвоните мне</button>
+            
+            
+
+
+        </header>
+        <h1>Проектирование и строительство загородной недвижимости
+            по современным технологиям в Москве и области</h1>
+        <div class="">
+            <div class="left">
+                <p>Типовые проекты и объекты VIP-класса</p>
+                <div class="">
+                    <ul>
+                        <li>Гарантия на строительные работы 2 года</li>
+                        <li>Построим дом за 60 дней</li>
+                        <li>Соблюдаем всю нормативно-техническую документацию</li>
+                        <li>Ввод канализации, водопровода и электрики – БЕСПЛАТНО</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-form">
+                <div class="main-form-container">
+                    <p>У Вас сложный проект
+                        и нестандратные задачи?</p>
+                    <p>Оставьте заявку
+                        на индивидуальный расчет</p>
+                    <p>Введите Ваш телефон</p>
+                    <input type="tel" name="" id="">
+                    <button>Оставить заявку</button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+
+</body>
+
 </html>
