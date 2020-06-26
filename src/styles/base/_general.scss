@@ -3,6 +3,11 @@ h1, h2, h3, h4, h5, h6, ul {
     padding: 0;
 }
 
+$color-light: #fbfbfb;
+$color-dark: #131313;
+$color-form: #FEE05A;
+
+
 .container {
     @include container();
     @include sm(max-width, rem(510));

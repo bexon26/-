@@ -25,6 +25,9 @@
     <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
     <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+
+
+
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
@@ -35,7 +38,7 @@
         <script src="js/vendor.js"></script> -->
 
     <section class="main">
-        <header class="header">
+        <header class="header wrapper">
             <div class="header-logo">
 
                 <img src="../img/svg/logo.svg" alt="logo">
@@ -62,47 +65,494 @@
                     <a class="header-social-block-item" href=""><img src="../img/icon/telegram.png" alt="logo"></a>
                 </div>
             </div>
-            
-                <button class="button header-button">Перезвоните мне</button>
-            
-            
+
+            <button class="button header-button">Перезвоните мне</button>
+
+
 
 
         </header>
-        <h1>Проектирование и строительство загородной недвижимости
-            по современным технологиям в Москве и области</h1>
-        <div class="">
-            <div class="left">
-                <p>Типовые проекты и объекты VIP-класса</p>
-                <div class="">
-                    <ul>
-                        <li>Гарантия на строительные работы 2 года</li>
-                        <li>Построим дом за 60 дней</li>
-                        <li>Соблюдаем всю нормативно-техническую документацию</li>
-                        <li>Ввод канализации, водопровода и электрики – БЕСПЛАТНО</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="main-form">
-                <div class="main-form-container">
-                    <p>У Вас сложный проект
-                        и нестандратные задачи?</p>
-                    <p>Оставьте заявку
-                        на индивидуальный расчет</p>
-                    <p>Введите Ваш телефон</p>
-                    <input type="tel" name="" id="">
-                    <button>Оставить заявку</button>
-                </div>
-            </div>
+        <div class="wrapper ">
+            <div class="main-top-line"></div>
+            <div class="main-container">
+
+                <h1 class="main__title">Проектирование и строительство загородной недвижимости
+                    по современным технологиям в Москве и области</h1>
+                <div class="layout-2-column">
+                    <div class="main-left">
+                        <h2 class="main-left__description"> Типовые проекты и объекты VIP-класса</h2>
+                        <div class="main-left-block">
+                            <ul class="main-left-block-list">
+                                <li class="main-left-block-list__item main-left-block-list__item-guarantee">Гарантия на
+                                    строительные работы <span>2 года</span> </li>
+                                <li class="main-left-block-list__item main-left-block-list__item-clock">Построим дом за
+                                    <span>60 дней</span> </li>
+                                <li class="main-left-block-list__item main-left-block-list__item-doc">Соблюдаем всю
+                                    нормативно-техническую документацию</li>
+                                <li class="main-left-block-list__item main-left-block-list__item-free">Ввод канализации,
+                                    водопровода и электрики – <span>БЕСПЛАТНО</span> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main-form">
+                        <div class="main-form-container">
+                            <p class="main-form__question">У Вас сложный проект<br>
+                                и нестандратные задачи?</p>
+                            <p class="main-form__text">Оставьте заявку<br>
+                                на индивидуальный расчет</p>
+                            <p class="main-form__title-phone">Введите Ваш телефон</p>
+                            <form class="main-form-mobile-form" action="">
+                                <input id="main-phone" class="main-form-mobile-form__tel phone-input-mask" type="tel" name=""  required>
+                                <div class="button-block-gift">
+                                    <button class="button-block-gift__button">Оставить заявку
+
+                                        <div class="button-block-gift__gift-text">+ Получить подарок</div>
+                                    </button>
+
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
 
 
+
+                </div>
+
+            </div>
 
         </div>
     </section>
+    <div class="app-container">
+        <section class="quiz">
+            <img class="quiz__image-on-bg" src="../img/quiz-image-on-bg.png" alt="">
+            <div class="wrapper">
+                <h2 class="main__title quiz__title">Рассчитайте за 1 минуту стоимость Вашего будущего дома с точностью
+                    95%
+                </h2>
+                <p class="quiz__text">Пройдите тест и получите:</p>
+                <div class="quiz-cards">
+                    <div class="quiz-cards-item">
+                        <img class="quiz-cards-item__project" src="../img/svg/3project.svg" alt="">
+                        <p>3 варианта проекта<br>
+                            по Вашим критериям</p>
+                    </div>
+                    <div class="quiz-cards-item">
+                        <img class="quiz-cards-item__consult" src="../img/svg/free-consult.svg" alt="">
+                        <p>Бесплатную консультацию<br>
+                            с архитектором в течение часа</p>
+                    </div>
+                    <div class="quiz-cards-item">
+                        <img class="quiz-cards-item__recomend" src="../img/svg/recomend.svg" alt="">
+                        <p>Рекомендации: на чем<br>
+                            сэкономить при строительстве</p>
+                    </div>
+                    <div class="quiz-cards-item">
+                        <img class="quiz-cards-item__excurtion" src="../img/svg/excurtion.svg" alt="">
+                        <p>Экскурсию<br>
+                            на строящийся объект</p>
+                    </div>
+                </div>
+
+                <div class="quiz-block">
+
+                    <div class="layout-2-column">
+                        <div class="quiz-block-left">
+                            <p class="quiz-block-left__title">Спасибо, что экономите
+                                время наших менеджеров</p>
+                            <div class="main-form main-form-with-border">
+                                <div class="main-form-container ">
+                                    <p class="main-form__question">У Вас сложный проект<br>
+                                        и нестандратные задачи?</p>
+                                    <p class="main-form__text">Оставьте заявку<br>
+                                        на индивидуальный расчет</p>
+                                    <p class="main-form__title-phone quiz-block-left__title-phone">Введите Ваш телефон
+                                    </p>
+                                    <form class="main-form-mobile-form" action="">
+                                        <input id="quiz-phone" class="main-form-mobile-form__tel phone-input-mask" type="tel" name="" >
+                                        <div class="button-block-gift">
+                                            <button class="button-block-gift__button">Оставить заявку
+
+                                                <div class="button-block-gift__gift-text">+ Получить подарок</div>
+                                            </button>
+
+                                        </div>
+
+                                    </form>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="quiz-block-right">
+                            <div class="quiz-block-left__progress">
+                                <div class="progress-tooltip">
+                                    <span class="progress-tooltip-info">Вопрос 1 из 4</span>
+                                    <progress class="progress" value="25" max="100"></progress>
+                                </div>
+                            </div>
+                            <div class="quiz-block-right-screen">
+                                <p class="quiz-block-right__question">Цель строительства</p>
+                                <div class="quiz-block-right-items">
+                                    <div class="quiz-block-right-items-item quiz-block-right-items-item-1">
+                                        <img src="../img/question1-1.png" alt="">
+                                        <div class="radio quiz-block-right-items-item-radio">
+                                            <input id="radio-q1-1" class="found" name="question1" type="radio">
+                                            <label for="radio-q1-1" class="radio-label">Сезонное
+                                                проживание</label>
+
+                                        </div>
+                                    </div>
+                                    <div class="quiz-block-right-items-item quiz-block-right-items-item-2">
+                                        <img src="../img/question1-2.png" alt="">
+                                        <div class="radio quiz-block-right-items-item-radio">
+                                            <input id="radio-q1-2" class="found" name="question1" type="radio">
+                                            <label for="radio-q1-2" class="radio-label">Постоянное
+                                                проживание</label>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <button class="quiz-block-right-screen__button">Следующий вопрос</button>
+                            </div>
 
 
 
 
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+    </div>
+
+
+    <div class="app-container">
+        <section class="about-house">
+            <img class="about-house__image-on-bg-left" src="../img/about-house-on-bg-left.png" alt="">
+            <img class="about-house__image-on-bg-right" src="../img/about-house-on-bg-right.png" alt="">
+
+            <div class="wrapper about-house-container">
+                <h2 class="main__title quiz__title about-house__title">Хотите построить эксклюзивный дом?</h2>
+                <div class="layout-2-column about-house-container-layout">
+                    <div class="about-house-time">
+                        <p class="about-house-time__description"> Наши архитекторы, дизайнеры и проектировищики <br>
+                            специализируются на индивидуальном подходе, <br>
+                            оформляя мечты клиентов в готовый проект. </p>
+                        <h4 class="about-house-time__title">Поэтому Вы получите дом, построенный за <span>60 дней</span>
+                        </h4>
+                        <div class="about-house-time-items layout-2-column">
+                            <div class="about-house-time-items-item">
+                                <img src="../img/left-house.png" alt="">
+                                <p class="about-house-time-items-item__first">по эксклюзивному<br>
+                                    дизайнерскому проекту</p>
+                                <p class="about-house-time-items-item__second">Архитекторы спроектируют самый<br>
+                                    необычный дом, а дизайнеры воплотят<br>
+                                    креативные решения в интерьере</p>
+                            </div>
+                            <div class="about-house-time-items-item">
+                                <img src="../img/right-house.png" alt="">
+                                <p class="about-house-time-items-item__first">по принципам надежности<br>
+                                    и технологичности</p>
+                                <p class="about-house-time-items-item__second">Наши материалы и технологии<br>
+                                    строительства предполагают длительную<br>
+                                    и комфортную эксплуатацию дома</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="about-house__image" src="../img/house-big.png" alt="">
+                </div>
+
+
+
+        </section>
+    </div>
+
+    <div class="app-container">
+        <section class="form-section">
+            <img class="form-section__image-on-bg-left" src="../img/left-form-section.png" alt="">
+            <img class="form-section__image-on-bg-right" src="../img/right-form-section.png" alt="">
+            <div class="form-section-wrapper">
+
+                <div class="form-section-container">
+                    <h2 class="main__title quiz__title form-section__title">Оставьте заявку, пообщайтесь с менеджером и
+                        примите<br>
+                        взвешенное решение: VIP-проект от нашего архитектора</h2>
+                    <form class="form-section-form" action="">
+                        <div class="form-section-form-item">
+                            <p>Введите Ваше имя</p>
+                            <input type="text" placeholder="Например, Иван">
+
+                        </div>
+                        <div class="form-section-form-item">
+                            <p>Введите Ваш телефон</p>
+                            <input type="tel" class="phone-input-mask">
+
+                        </div>
+                        <div class="form-section-form-item">
+                            <p>Введите Ваш e-mail</p>
+                            <input type="email" placeholder="ivan02@mail.com">
+
+                        </div>
+                        <div class="form-section-form-item">
+                            <button>Оставить заявку</button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <div class="app-container">
+        <section class="projects">
+            <img class="projects__image-on-bg" src="../img/project-on-bg.png" alt="">
+            <div class="wrapper">
+                <div class="projects-container">
+                    <h2 class="main__title quiz__title form-section__title">Готовые проекты из нашего каталога –
+                        экономия денег и времени</h2>
+                    <div class="layout-2-column">
+                        <img class="projects-left__image" src="../img/house-big-2.png" alt="">
+                        <div class="projects-right-block">
+                            <p class="projects-right-block__description">Наш опыт в проектировании и строительстве –
+                                <span>7 лет</span>. <br>
+                                За это время мы наработали множество передовых решений.</p>
+                            <div class="projects-right-block-gallery">
+                                <p class="projects-right-block-gallery__title">
+                                    Выбирайте готовый проект типового дома,<br>
+                                    подходящий под Ваш бюджет.
+                                </p>
+
+                                <div class="projects-right-block-gallery-slider">
+                                    <div class="carousel">
+                                        <div class="nav nav-left">
+                                            <div class="ion-chevron-left carousel-arrow-icon-left">
+                                                <img src="../img/svg/arrow-left.svg" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-content">
+
+                                            <div class="slide slide-1">
+                                                <img src="../img/project-1.png" alt="">
+                                            </div>
+                                            <div class="slide slide-2">
+                                                <img src="../img/project-2.png" alt="">
+                                            </div>
+                                            <div class="slide slide-3">
+                                                <img src="../img/project-1.png" alt="">
+                                            </div>
+
+
+                                        </div>
+
+                                        <div class="nav nav-right">
+                                            <div class="ion-chevron-right carousel-arrow-icon-right">
+                                                <img src="../img/svg/arrow-right.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-right-block-gallery-slider-white-shadow"></div>
+                                </div>
+                            </div>
+                            <button>Посмотреть готовые проекты в каталоге</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="contact">
+        <div class="wrapper contact-wrapper">
+            <div class="contact-block">
+                <div class="header-phone contact-block-phone">
+                    <img src="../img/svg/phone-icon2.svg" alt="phone-icon1">
+                    <div class="header-phone-block contact-block-phone-block">
+                        <p class="header-phone-block__text contact-block-phone-block__text">Звоните, мы онлайн!</p>
+                        <div class="header-phone-block-mob contact-block-phone-block-mob">
+                            <p class="header-phone-block-mob__first contact-block-phone-block-mob__first">+8
+                                906-043-33-60</p>
+                            <p class="header-phone-block-mob__second contact-block-phone-block-mob__second">
+                                8-(495)-983-33-40</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-social contact-block-social">
+                    <p class="header-social__text contact-block-social__text">Свяжитесь с нами</p>
+                    <div class="header-social-block contact-block-social-block">
+                        <a class="header-social-block-item contact-block-social-block-item" href=""><img
+                                src="../img/icon/viber.png" alt="logo"></a>
+                        <a class="header-social-block-item contact-block-social-block-item" href=""><img
+                                src="../img/icon/watsapp.png" alt="logo"></a>
+                        <a class="header-social-block-item contact-block-social-block-item" href=""><img
+                                src="../img/icon/telegram.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="contact-block-post">
+                    <p class="contact-block-post__mail">Proectmaster@yandex.ru</p>
+                    <p class="contact-block-post__gps">г. Москва, Рязанский пр-т 36, 1 этаж</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="app-container">
+        <section class="interview">
+            <img class="interview__image-on-bg" src="../img/interview-on-bg.png" alt="">
+            <div class="wrapper interview-wrapper">
+                <div class="interview-container">
+                    <h2 class="main__title quiz__title interview__title">Заполните форму!</h2>
+                    <p class="interview__text">Это бесплатно!</p>
+                    <div class="interview-block">
+                        <p class="interview-block__title">Цель строительства</p>
+                        <div class="quiz-block-right-items interview-block-quiz">
+                            <div class="quiz-block-right-items-item interview-block-quiz-item ">
+                                <div class="radio quiz-block-right-items-item-radio">
+                                    <input id="radio-i1-1" class="found" name="interview1" type="radio">
+                                    <label for="radio-i1-1" class="radio-label radio-label_1">Сезонное
+                                        проживание</label>
+                                </div>
+                            </div>
+                            <div class="quiz-block-right-items-item interview-block-quiz-item ">
+
+                                <div class="radio quiz-block-right-items-item-radio">
+                                    <input id="radio-i1-2" class="found" name="interview1" type="radio">
+                                    <label for="radio-i1-2" class="radio-label radio-label_2">Постоянное
+                                        проживание</label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <p class="interview-block__title">Укажите наличие участка</p>
+
+                        <div class="quiz-block-right-items interview-block-quiz">
+                            <div class="quiz-block-right-items-item interview-block-quiz-item">
+                                <div class="radio quiz-block-right-items-item-radio">
+                                    <input id="radio-i2-1" class="found" name="interview2" type="radio">
+                                    <label for="radio-i2-1" class="radio-label ">Есть</label>
+                                </div>
+                            </div>
+                            <div class="quiz-block-right-items-item interview-block-quiz-item ">
+
+                                <div class="radio quiz-block-right-items-item-radio">
+                                    <input id="radio-i2-2" class="found" name="interview2" type="radio">
+                                    <label for="radio-i2-2" class="radio-label ">Нет</label>
+                                </div>
+                            </div>
+                            <div class="quiz-block-right-items-item interview-block-quiz-item ">
+
+                                <div class="radio quiz-block-right-items-item-radio">
+                                    <input id="radio-i2-3" class="found" name="interview2" type="radio">
+                                    <label for="radio-i2-3" class="radio-label ">Планирую покупку участка</label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <p class="interview-block__title">Есть ли фото или проект дома, который хотите построить</p>
+
+                        <div class="quiz-block-right-items interview-block-quiz">
+                            <div class="quiz-block-right-items-item interview-block-quiz-item ">
+                                <div class="radio quiz-block-right-items-item-radio">
+                                    <input id="radio-i3-1" class="found" name="interview3" type="radio">
+                                    <label for="radio-i3-1" class="radio-label ">Есть</label>
+                                </div>
+                            </div>
+                            <div class="quiz-block-right-items-item interview-block-quiz-item ">
+
+                                <div class="radio quiz-block-right-items-item-radio">
+                                    <input id="radio-i3-2" class="found" name="interview3" type="radio">
+                                    <label for="radio-i3-2" class="radio-label ">Нет</label>
+                                </div>
+                            </div>
+                            <div class="quiz-block-right-items-item interview-block-quiz-item ">
+
+                                <div class="radio quiz-block-right-items-item-radio">
+                                    <input id="radio-i3-3" class="found" name="interview3" type="radio">
+                                    <label for="radio-i3-3" class="radio-label ">Хочу заказать разработку
+                                        проекта</label>
+                                </div>
+                            </div>
+
+                        </div>
+                       
+                            <input id="inputFile" type="file" name="somename" size="chars">
+                            <button id="fileButton">Прикрепить файл</button>
+                        
+
+                        <p class="interview-block__title interview-block__title-form">Ваши контактные данные</p>
+                        <form action="">
+                            <div class="interview-block-quiz-form">
+                                <input type="text" placeholder="Введите Ваше имя">
+                                <select name="" id="">
+                                    <option value="" selected>Выберите мессенджер</option>
+                                </select>
+                                <input id="input-tell" type="tel" placeholder="Номер телефона">
+
+                            </div>
+                            <div class="interview-block-quiz-form-button">
+                                <button
+                                    class="button-block-gift__button interview-block-quiz-form-button__button">Получить
+                                    расчет
+
+                                    <div class="button-block-gift__gift-text interview-block-quiz-form-button__text">+
+                                        получить подарок</div>
+                                </button>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="wrapper footer-wrapper">
+            <div class="footer-block">
+                <div class="footer-block-button">
+                    <p class="footer-block-button__text">“СтройИнжиниринг”</p>
+                    <button class="button header-button">Перезвоните мне</button>
+                </div>
+                <div class="header-phone footer-block-phone">
+                    <img src="../img/svg/phone-icon.svg" alt="phone-icon">
+                    <div class="header-phone-block footer-block-phone-block">
+                        <p class="header-phone-block__text">Звоните, мы онлайн!</p>
+                        <div class="header-phone-block-mob footer-block-phone-block-mob">
+                            <p class="header-phone-block-mob__first footer-block-phone-block-mob__first">8 906-043-33-60</p>
+                            <p class="header-phone-block-mob__second footer-block-phone-block-mob__second">8 - (495) - 983-33-40</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-social footer-block-social">
+                    <p class="header-social__text">Написать архитектору:</p>
+                    <div class="header-social-block">
+                        <a class="header-social-block-item" href=""><img src="../img/icon/viber.png" alt="logo"></a>
+                        <a class="header-social-block-item" href=""><img src="../img/icon/watsapp.png" alt="logo"></a>
+                        <a class="header-social-block-item" href=""><img src="../img/icon/telegram.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="footer-block-studio">
+                    <img src="../img/studio-logo.png" alt="">
+                    <p class="footer-block-studio__text">Разработка и продвижение
+                        сайтов</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
